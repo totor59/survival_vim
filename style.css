@@ -24,8 +24,9 @@ img {
 h1 {
 	font-size: 60px;
 	float: right;
-	color: #FFF;
-	margin: 20px; 
+	color: #f1f8e9;
+	margin: 20px;
+	font-family: "Passion One"; 
 }
 
 
@@ -48,17 +49,24 @@ caption {
 	border: 1px solid #689f38;
 	text-align: left;
 	background-color: #689f38;
-	color: #FFF;
+	color: #f1f8e9;
+	font-weight: bold;
+	font-family: "Candal";
+	font-size: 25px;
 }
 tr, th, td {
 	border: 1px solid #33691e;
 }
 th {
 	background-color: #8bc34a;
-	color: #FFF;
+	color: #f1f8e9;
+	font-family: "Candal";
 }
 td {
 	width: 50%;
+}
+.command {
+	font-family: "Rajdhani";
 }
 
 
