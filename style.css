@@ -61,6 +61,19 @@ td {
 	width: 50%;
 }
 
+
+/*--------------BUTTON----------------*/
+
+.up {
+	position: fixed;
+	bottom: 1%;
+}
+#button {
+        height: 24px;
+}
+a {
+}
+
 /*--------------EFFECTS----------------*/
 
 .command:hover {
