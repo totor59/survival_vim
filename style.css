@@ -2,6 +2,7 @@
 html {
 	height: 100%;
 	width: 100%;
+	background-color: #dcedc8;
 	}
 
 /*-----------HEADER------------------*/
@@ -17,7 +18,7 @@ header {
 }
 img {
 	float: left;
-	height: 80px;
+	height: 150px;
 	margin: 15px;
 }
 h1 {
@@ -30,11 +31,28 @@ h1 {
 
 /*----------CONTAINER----------------*/
 
-/*.container {
-	margin-top: 150px;
+.container {
+	margin-top: 200px;
 	width: 90%;
 }
+table {
+	line-height: 40px;
+	width: 100%;
+	margin: 5%;
+	border-collapse: collapse;
+	text-indent: 1%;
+	background-color: #c5e1a5;
+}
 caption {
+	border: 1px solid #689f38;
+	text-align: left;
+	background-color: #689f38;
+	color: #FFF;
+}
+tr, th, td {
 	border: 1px solid #33691e;
-}*/
-
+}
+th {
+	background-color: #8bc34a;
+	color: #FFF;
+}
