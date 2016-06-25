@@ -36,12 +36,13 @@ h1 {
 	width: 90%;
 }
 table {
-	line-height: 40px;
+	line-height: 45px;
 	width: 100%;
 	margin: 5%;
 	border-collapse: collapse;
 	text-indent: 1%;
 	background-color: #c5e1a5;
+	font-size: 20px;
 }
 caption {
 	border: 1px solid #689f38;
@@ -55,4 +56,17 @@ tr, th, td {
 th {
 	background-color: #8bc34a;
 	color: #FFF;
+}
+td {
+	width: 50%;
+}
+
+/*--------------EFFECTS----------------*/
+
+.command:hover {
+	line-height: 50px;
+	cursor: pointer;
+	font-size: 22px;
+	font-weight: bold;
+	background-color: #aed581;
 }
