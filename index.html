@@ -1,155 +1,158 @@
 <!DOCTYPE>
-	<html>
-		<head>
-			<link rel="stylesheet" type="text/css" href="style.css">
-			<meta charset="UTF-8">
-			<link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet' type='text/css'>
-			<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
-			<link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
-			<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-			<title>Survival guide of Vim</title>
-			<link rel="icon" type="image/ico" href="favicon.ico" />
-		</head>
-		<body>
-<!------------HEADER------------>
-			<header>
-				<img src="vim_logo.png" id="ancre">
-				<h1>SURVIVAL GUIDE</h1>
-			</header>
-<!-------------CONTAINER---------------->
-			<div class="container">
-				<table>
-					<tr>
-						<caption>LA BASE DE VIM</caption>
-					</tr>
-					<tr>
-						<th colspan=2>Commandes de bases</th>
-					</tr>
-					<tr class="command">
-						<td>i</td>
-						<td>Mode insertion</td>
-					</tr>
-					<tr class="command">
-						<td>$</td>
-						<td>Aller en fin de ligne</td>
-					</tr>
-					<tr class="command">
-						<td>:q</td>
-						<td>Quitter</td>
-					</tr>
-					<tr class="command">
-						<td>:q!</td>
-						<td>Quitter sans enregistrer</td>
-					</tr>
-					<tr class="command">
-						<td>:wq</td>
-						<td>Quitter et enregistrer</td>
-					</tr>
-					<tr class="command">
-						<td>w</td>
-						<td>Enregistrer</td>
-					</tr>
-					<tr class="command">
-						<td>^v</td>
-						<td>Mode visuel</td>
-					</tr>
-					<tr class="command">
-						<td>Echap</td>
-						<td>Sortir du mode insertion</td>
-					</tr>
-					<tr>
-						<th colspan=2>Déplacements</th>
-					</tr>
-					<tr class="command">
-						<td>h,j,k,l</td>
-						<td>Déplacer le curseur</td>
-					</tr>
-					<tr class="command">
-						<td>w,b</td>
-						<td>Avancer ou reculer d'un mot</td>
-					</tr>
-					<tr class="command">
-						<td>gg</td>
-						<td>Aller en début de fichier</td>
-					</tr>
-					<tr class="command">
-						<td>G</td>
-						<td>Aller en fin de fichier</td>
-					</tr>
-					<tr>
-						<th colspan=2>Edition</th>
-					</tr>
-					<tr class="command">
-						<td>dd</td>
-						<td>Couper la ligne</td>
-					</tr>
-					<tr class="command">
-						<td>x</td>
-						<td>Effacer caractère sous curseur</td>
-					</tr>
-					<tr class="command">
-						<td>diw</td>
-						<td>Effacer le mot</td>
-					</tr>
-					<tr class="command">
-						<td>yy</td>
-						<td>Copier la ligne</td>
-					</tr>
-					<tr class="command">
-						<td>p</td>
-						<td>Coller après p</td>
-					</tr>	
-					<tr class="command">
-						<td>y(en mode visuel)</td>
-						<td>Copier la sélection</td>
-					</tr>	
-					<tr>
-						<th colspan=2>Recherche/remplacements</th>
-					</tr>
-					<tr class="command">
-						<td>/</td>
-						<td>Rechercher</td>
-					</tr>
-					<tr class="command">
-						<td>:%s/A/B/g</td>
-						<td>Remplace tous les "A" par des "B"</td>
-					</tr>
-					<tr>
-						<th colspan=2>Mise en page</th>
-					</tr>
-					<tr class="command">
-						<td>gg=G(en mode visuel)</td>
-						<td>Indente tout le fichier</td>
-					</tr>
-					<tr>
-						<th colspan=2>Fenêtres</th>
-					</tr>
-					<tr class="command">
-						<td>:vsp nomdefichier</td>
-						<td>Ouvre un fichier en split vertical</td>
-					</tr>
-					<tr class="command">
-						<td>^w</td>
-						<td>Naviguer entre les splits</td>
-					</tr>
-					<tr>
-						<th colspan=2>Onglets</th>
-					</tr>
-					<tr class="command">
-						<td>:tabnew nomdefichier</td>
-						<td>Ouvre un fichier dans un nouvel onglet</td>
-					</tr>
-					<tr class="command">
-						<td>gt</td>
-						<td>Naviguer entre les onglets</td>
-					</tr>
-				</table>
-<!-------------UPBUTTON----------------->
-			</div>               
-			<div class="up">	
-				<a href="#ancre"><img src="up-arrow.png" id="button"></a>				              
-			</div>
-		</body>                      
-	</html>                                    
-                                                   
-                                             
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<meta charset="UTF-8">
+		<link href='https://fonts.googleapis.com/css?family=Rajdhani' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Candal' rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<title>Survival guide of Vim</title>
+		<link rel="icon" type="image/ico" href="favicon.ico" />
+	</head>
+	<body>
+		<!------------HEADER------------>
+		<header>
+			<img src="vim_logo.png" id="ancre">
+			<h1>SURVIVAL GUIDE</h1>
+		</header>
+		<!-------------CONTAINER---------------->
+		<div class="container">
+			<table>
+				<tr>
+					<caption>LA BASE DE VIM</caption>
+				</tr>
+				<tr>
+					<th colspan=2>Commandes de bases</th>
+				</tr>
+				<tr class="command">
+					<td>i</td>
+					<td>Mode insertion</td>
+				</tr>
+				<tr class="command">
+					<td>$</td>
+					<td>Aller en fin de ligne</td>
+				</tr>
+				<tr class="command">
+					<td>:q</td>
+					<td>Quitter</td>
+				</tr>
+				<tr class="command">
+					<td>:q!</td>
+					<td>Quitter sans enregistrer</td>
+				</tr>
+				<tr class="command">
+					<td>:wq</td>
+					<td>Quitter et enregistrer</td>
+				</tr>
+				<tr class="command">
+					<td>w</td>
+					<td>Enregistrer</td>
+				</tr>
+				<tr class="command">
+					<td>^v</td>
+					<td>Mode visuel</td>
+				</tr>
+				<tr class="command">
+					<td>Echap</td>
+					<td>Sortir du mode insertion</td>
+				</tr>
+				<tr>
+					<th colspan=2>Déplacements</th>
+				</tr>
+				<tr class="command">
+					<td>h,j,k,l</td>
+					<td>Déplacer le curseur</td>
+				</tr>
+				<tr class="command">
+					<td>w,b</td>
+					<td>Avancer ou reculer d'un mot</td>
+				</tr>
+				<tr class="command">
+					<td>gg</td>
+					<td>Aller en début de fichier</td>
+				</tr>
+				<tr class="command">
+					<td>G</td>
+					<td>Aller en fin de fichier</td>
+				</tr>
+				<tr>
+					<th colspan=2>Edition</th>
+				</tr>
+				<tr class="command">
+					<td>dd</td>
+					<td>Couper la ligne</td>
+				</tr>
+				<tr class="command">
+					<td>x</td>
+					<td>Effacer caractère sous curseur</td>
+				</tr>
+				<tr class="command">
+					<td>diw</td>
+					<td>Effacer le mot</td>
+				</tr>
+				<tr class="command">
+					<td>yy</td>
+					<td>Copier la ligne</td>
+				</tr>
+				<tr class="command">
+					<td>p</td>
+					<td>Coller après p</td>
+				</tr>	
+				<tr class="command">
+					<td>y(en mode visuel)</td>
+					<td>Copier la sélection</td>
+				</tr>	
+				<tr>
+					<th colspan=2>Recherche/remplacements</th>
+				</tr>
+				<tr class="command">
+					<td>/</td>
+					<td>Rechercher</td>
+				</tr>
+				<tr class="command">
+					<td>:%s/A/B/g</td>
+					<td>Remplace tous les "A" par des "B"</td>
+				</tr>
+				<tr>
+					<th colspan=2>Mise en page</th>
+				</tr>
+				<tr class="command">
+					<td>:%s/phrase to delete//gc</td>
+					<td>Recherche "phrase to delete" et supprime après confiramtion</td>
+				</tr>
+				<tr class="command">
+					<td>gg=G(en mode visuel)</td>
+					<td>Indente tout le fichier</td>
+				</tr>
+				<tr>
+					<th colspan=2>Fenêtres</th>
+				</tr>
+				<tr class="command">
+					<td>:vsp nomdefichier</td>
+					<td>Ouvre un fichier en split vertical</td>
+				</tr>
+				<tr class="command">
+					<td>^w</td>
+					<td>Naviguer entre les splits</td>
+				</tr>
+				<tr>
+					<th colspan=2>Onglets</th>
+				</tr>
+				<tr class="command">
+					<td>:tabnew nomdefichier</td>
+					<td>Ouvre un fichier dans un nouvel onglet</td>
+				</tr>
+				<tr class="command">
+					<td>gt</td>
+					<td>Naviguer entre les onglets</td>
+				</tr>
+			</table>
+			<!-------------UPBUTTON----------------->
+		</div>               
+		<div class="up">	
+			<a href="#ancre"><img src="up-arrow.png" id="button"></a>				              
+		</div>
+	</body>                      
+</html>                                    
+
